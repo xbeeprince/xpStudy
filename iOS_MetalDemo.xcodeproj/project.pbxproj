@@ -13,6 +13,7 @@
 		A3A56007216F75330005F544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A56004216F75330005F544 /* AppDelegate.m */; };
 		A3A5600B216F75910005F544 /* XPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A5600A216F75910005F544 /* XPBaseViewController.m */; };
 		A3A56030216F82320005F544 /* XPBaseMetalView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A5602F216F82320005F544 /* XPBaseMetalView.m */; };
+		A3E7A8BD21797540006B104C /* XPArrayList.c in Sources */ = {isa = PBXBuildFile; fileRef = A3E7A8BC21797540006B104C /* XPArrayList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		A3A5600A216F75910005F544 /* XPBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPBaseViewController.m; sourceTree = "<group>"; };
 		A3A5602E216F82320005F544 /* XPBaseMetalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPBaseMetalView.h; sourceTree = "<group>"; };
 		A3A5602F216F82320005F544 /* XPBaseMetalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPBaseMetalView.m; sourceTree = "<group>"; };
+		A3E7A8BB21797540006B104C /* XPArrayList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPArrayList.h; sourceTree = "<group>"; };
+		A3E7A8BC21797540006B104C /* XPArrayList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = XPArrayList.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				A364914C21787751005274F6 /* XPArray.h */,
 				A364914D21787751005274F6 /* XPArray.c */,
+				A3E7A8BB21797540006B104C /* XPArrayList.h */,
+				A3E7A8BC21797540006B104C /* XPArrayList.c */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 			files = (
 				A3A56006216F75330005F544 /* main.m in Sources */,
 				A3A56030216F82320005F544 /* XPBaseMetalView.m in Sources */,
+				A3E7A8BD21797540006B104C /* XPArrayList.c in Sources */,
 				A3A56007216F75330005F544 /* AppDelegate.m in Sources */,
 				A3A5600B216F75910005F544 /* XPBaseViewController.m in Sources */,
 				A364914E21787751005274F6 /* XPArray.c in Sources */,
